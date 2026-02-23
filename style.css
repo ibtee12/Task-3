@@ -49,3 +49,10 @@ body {
 .rejected-num {
     color: #dc2626;
 }
+
+/* divider line */
+.divider {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin-bottom: 30px;
+}
