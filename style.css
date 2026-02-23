@@ -289,3 +289,35 @@ body {
     font-size: 14px;
     color: #9ca3af;
 }
+
+/* responsive for mobile */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+    .main-title {
+        font-size: 22px;
+    }
+
+    .dashboard {
+        flex-direction: column;
+    }
+
+    .jobs-section {
+        padding: 18px 15px;
+    }
+
+    .job-card {
+        padding: 16px 15px;
+    }
+
+    .job-meta {
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .meta-dot {
+        display: none;
+    }
+}
