@@ -10,8 +10,8 @@
   <body>
     <div class="container">
       <!-- Header -->
-      <div class="main-title">Job Application Tracker</div>
-    </div>
+      <div class="main-title">Job Application Tracker</div><br>
+    
     <!-- Dashboard -->
     <div class="dashboard">
       <div class="dash-card">
@@ -27,6 +27,7 @@
         <h2 class="dash-number rejected-num" id="rejected-count">0</h2>
       </div>
     </div>
+    
      <hr class="divider">
 
      <!-- Available Jobs Section -->
@@ -42,13 +43,13 @@
                 <button class="tab-btn active" id="tab-btn-all" onclick="showTab('all')">All</button>
                 <button class="tab-btn" id="tab-btn-interview" onclick="showTab('interview')">Interview</button>
                 <button class="tab-btn" id="tab-btn-rejected" onclick="showTab('rejected')">Rejected</button>
-            </div>
+            </div><br>
 
             <!-- All Tab Content -->
             <div id="tab-all" class="tab-content active">
                 <div id="all-jobs-list"></div>
                 <div id="all-empty" class="empty-state" style="display:none;">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2991/2991106.png" alt="empty" class="empty-img">
+                    <img src="./assets/jobs.png" alt="empty" class="empty-img">
                     <h3 class="empty-title">No jobs available</h3>
                     <p class="empty-subtitle">Check back soon for new job opportunities</p>
                 </div>
@@ -75,6 +76,7 @@
             </div>
 
         </div>
+    </div>    
     <script src="./script.js"></script>
   </body>
 </html>

@@ -3,7 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.container{
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 80%;
+}
+.main-title{
+    font-size: 32px;
+    font-weight: bolder;
+}
 body {
     background-color: #f0f4f8;
     font-family: 'Segoe UI',sans-serif;
